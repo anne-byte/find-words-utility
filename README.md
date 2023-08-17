@@ -23,29 +23,41 @@ To use the `findWords` utility in your TypeScript project, you can follow these 
 
 2. Navigate to the project directory:
 
+<pre>
+```sh
 cd find-words-utility
 
 npm install
 
 npm run build
+```
+</pre>
 
 ## Usage
 The findWords function takes a single argument, which is a string of letters. It then returns an array of valid English words that can be formed using those letters.
 
+<pre>
+```javascript
 import { findWords } from './dist/findWords';
 
 const input = 'oogd';
 const validWords = findWords(input);
 console.log(validWords); // Output: ['good', 'god', 'dog', 'goo', 'do', 'go']
+```
+</pre>
 
 ## Examples
 Here's an example of how to use the findWords utility:
 
+<pre>
+```javascript
 import { findWords } from './dist/findWords';
 
 const input = 'oogd';
 const validWords = findWords(input);
 console.log(validWords); // Output: ['good', 'god', 'dog', 'goo', 'do', 'go']
+```
+</pre>
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue in this repo: https://github.com/anne-byte/find-words-utility.
