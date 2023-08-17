@@ -51,4 +51,4 @@ console.log(validWords); // Output: ['good', 'god', 'dog', 'goo', 'do', 'go']
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue in this repo: https://github.com/anne-byte/find-words-utility.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
